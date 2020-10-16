@@ -39,27 +39,36 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body
 {
-  background-color: black;
+	background: #000;
   font-size: 15px;
   line-height: 1.6;
 }
+/*
 .main{
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
+*/
 .header{
 	display: flex;
 	border-bottom: 1px solid #ffffff;
 	justify-content: space-between;
   color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.7);;
+	overflow: 0.5;
+	position: sticky;
+	top: 0;
+	z-index: 20;
+	width: 100%;
 }
 
 .logoCompany{
+	height: 100%;
 }
 
 .logImg{
-	width: 50%;
+	width: 35%;
 	height: 100%;
 }
 
@@ -67,7 +76,7 @@ body
 	display: inline-block;
 	text-align: center;
 	word-spacing: 2px;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 700;
 	font-family: 'Piazzolla', serif;
 	color: black;
@@ -79,6 +88,11 @@ body
 	margin-right: 10px;
 	display: inline-block;
 	position: relative;
+}
+
+.language_button{
+	font-size: 18px;
+	color: #fff;
 }
 
 .nav a:nth-child(1n+1):hover{
@@ -96,28 +110,64 @@ body
 	text-align: center;
 }
 
-.container_main{
+.container_main_bat1{
 	display: flex;
 	align-items: center;
-	background-color: black;
-	border: 2px solid #ffffff;
+	background-color: black;/*#7d8631*/
 	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
 	background-size: cover;
 	margin: 10px 0px 10px 0px;
 	height: 560px;
 }
+.container_main_bat2{
+	display: flex;
+	align-items: center;
+	background-color: black; /*#be1e2d;*/
+	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-size: cover;
+	margin: 10px 0px 10px 0px;
+	height: 560px;
+}
+.container_main_bat3{
+	display: flex;
+	align-items: center;
+	background-color: black; /*#7895a4;*/
+	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-size: cover;
+	margin: 10px 0px 10px 0px;
+	height: 560px;
+}
+.container_main_bat4{
+	display: flex;
+	align-items: center;
+	background-color: black;/*#b5babe;*/
+	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-size: cover;
+	margin: 10px 0px 10px 0px;
+	height: 560px;
+}
+.container_main_bat5{
+	display: flex;
+	align-items: center;
+	background-color: black;/*#ffbf77;*/
+	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-size: cover;
+	margin: 10px 0px 10px 0px;
+	height: 560px;
+}
+
 .container_internal_img{
 }
 .cantainer_internal_p{
 	align-self: flex-start;
 	width: 100%;
-  margin: 100px 100px 0px 0px;
+  margin: 80px 50px 0px 0px;
 }
 .container_button{
 	margin: 0px 0px 0px 125px;
 }
 .class_button_bat{
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
   border-radius: 50%;
   color: white;
   padding: 20px;
@@ -126,14 +176,22 @@ body
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Bat1/living_0.png");
+	background-size: cover;
+	color: red;
 }
 .p_bat{
 	display: block;
-	font-size: 32px;
+	font-size: 28px;
+	font-family: 'Piazzolla', serif;
 	color: #ffffff;
 	position: relative;
-	border: 5px solid black;
-	font-family: 'Piazzolla', serif;
+	border: 5px solid #67523b;
+	box-shadow: 0px 0px 3px 3px black;
+	text-align: justify;
+	padding: 10px;
+	font-weight: 900;
+	background: #a27644;
 }
 .bat_img{
 	display: block;
@@ -147,21 +205,17 @@ body
 	width: 100%;
 }
 .class_scroll_img{
-	margin: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
 	position: relative;
-
 }
 .scroll_img{
-	border: 2px solid #ffffff;
-	box-shadow: 0px 0px 8px 2px #ffffff;
 	width: 100%;
 	height: auto;
 }
 
 .class_new_information{
 	display: flex;
-	margin: 0px 10px 0px 12px;
-	border: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 }
 .container_img{
 	width: 50%;
@@ -187,12 +241,141 @@ body
 	text-align: justify;
 }
 .clear_box{
-	border-top: 2px solid #ffffff;
+	border-top: 1px solid #ffffff;
 	margin: 10px 0px 10px 0px;
+	border-bottom: 1px solid #ffffff;
+	background-color: #4a4a4a;
 }
 
 .p_footer{
 	font-size: 22px;
 	color: #ffffff;
 	font-family: 'Piazzolla', serif;
+}
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+	font-size: 0;
+	width: 5%;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.slick-arrow:hover{
+	width: 8%;
+	height: 100%;
+	opacity: 1;
+
+}
+
+.slick-arrow:active{
+	width: 5%;
+	height: 100%;
+	opacity: 0.5;
+
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+/* Конкретный слайдер*/
+.slider .slick-arrow.slick-prev
+{
+	left: 0;
+	background: url("D:/Project/Atom/JS/Mobile Website/resurce/images/arrows-rev.png" ) 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next
+{
+	right: 0;
+	background: url("D:/Project/Atom/JS/Mobile Website/resurce/images/arrows-next.png") 0 0 / 100% no-repeat;
+}
+
+.slider{
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px 20px;
+}
+/* Активная точка */
+.slider .slick-dots li.slick-active button{
+	background-color: red;
+	border: 1px solid #fff;
+}
+/* Элемент точки */
+.slider .slick-dots li button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.footer_class{
+	background-color: #4a4a4a;
+}
+.class_footer_top{
+	background-color: #4a4a4a;
+	margin: 50px 0px 0px 0px;
+}
+.img_vk{
+	width: 50px;
+	height: 50px;
+}
+
+.p_footer{
+	font-size: 14px;
+	font-family: 'Piazzolla', serif;
+	text-align: center;
+}
+.p_footer_top{
+	font-size: 22px;
+	color: #fff;
+	font-family: 'Piazzolla', serif;
+	text-align: left;
+	font-weight: 700;
 }
