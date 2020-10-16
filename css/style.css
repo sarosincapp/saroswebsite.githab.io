@@ -113,55 +113,49 @@ body
 .container_main_bat1{
 	display: flex;
 	align-items: center;
-	background-color: black;/*#7d8631*/
-	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-color: #7d8631;
+	/*background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");*/
 	background-size: cover;
-	margin: 10px 0px 10px 0px;
 	height: 560px;
 }
 .container_main_bat2{
 	display: flex;
 	align-items: center;
-	background-color: black; /*#be1e2d;*/
-	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-color: #be1e2d;
+	/*background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");*/
 	background-size: cover;
-	margin: 10px 0px 10px 0px;
 	height: 560px;
 }
 .container_main_bat3{
 	display: flex;
 	align-items: center;
-	background-color: black; /*#7895a4;*/
-	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-color: #7895a4;
+	/*background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");*/
 	background-size: cover;
-	margin: 10px 0px 10px 0px;
 	height: 560px;
 }
 .container_main_bat4{
 	display: flex;
 	align-items: center;
-	background-color: black;/*#b5babe;*/
-	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-color: #b5babe;
+	/*background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");*/
 	background-size: cover;
-	margin: 10px 0px 10px 0px;
 	height: 560px;
 }
 .container_main_bat5{
 	display: flex;
 	align-items: center;
-	background-color: black;/*#ffbf77;*/
-	background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");
+	background-color: #ffbf77;
+	/*background-image: url("D:/Project/Atom/JS/Mobile Website/resurce/images/Table.png");*/
 	background-size: cover;
-	margin: 10px 0px 10px 0px;
 	height: 560px;
 }
 
 .container_internal_img{
 }
 .cantainer_internal_p{
-	align-self: flex-start;
 	width: 100%;
-  margin: 80px 50px 0px 0px;
+  margin: 0px 50px 0px 0px;
 }
 .container_button{
 	margin: 0px 0px 0px 125px;
