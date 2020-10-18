@@ -380,7 +380,8 @@ body
 .p_footer{
 	font-size: 14px;
 	font-family: 'Piazzolla', serif;
-	text-align: right;
+	text-align: center;
+	padding: 70px 0px 10px 0px;
 }
 .p_footer_top{
 	font-size: 18px;
