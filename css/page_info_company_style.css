@@ -1,0 +1,115 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.class_text_hello{
+  font-size: 120px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Piazzolla', serif;
+  margin: 25px 0px;
+}
+.class_container_information_user_o{
+  background-image: url("https://cdn.wallpapersafari.com/90/85/4c30Um.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid white;
+	height: 500px;
+}
+.class_container_information_user_n{
+  background-image: url("https://bytextest.ru/wp-content/uploads/2016/09/tester2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid white;
+	height: 500px;
+}
+.class_container_information_user_an{
+  background-image: url("https://kto-chto-gde.ru/wp-content/uploads/2017/08/dqcom-blog-new-030.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid white;
+	height: 500px;
+}
+.class_container_information_user_al{
+  background-image: url("https://www.thebalancesmb.com/thmb/TL_UQuP6vqwFlzOdhxvkmNEZSHQ=/3863x2577/filters:fill(auto,1)/writing-541475315-5a2880b90c1a82003794990f.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid white;
+	height: 500px;
+}
+.class_container_information_user_r{
+  background-image: url("http://srkvtie.ru/images/photos/full/programmirovanie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid white;
+	height: 500px;
+}
+.class_sub-container_information_user{
+  display: flex;
+  justify-content: flex-start;
+	align-items: center;
+  margin: 0px 50px 0px 50px;
+}
+.class_container_text_user{
+  margin: 0px 0px 0px 50px;
+}
+.class_image_user{
+  width: 300px;
+  height: 300px;
+  margin: 10px 10px;
+}
+.class_discription_user{
+  background-color: #666;
+  border: 5px solid #000;
+  padding: 10px 10px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Piazzolla', serif;
+  display: inline-block;
+  text-align: justify;
+}
+.class_FCS_user{
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  font-family: 'Piazzolla', serif;
+  margin-bottom: 10px;
+}
+body{
+  background-color: #303030;
+}

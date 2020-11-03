@@ -80,7 +80,6 @@ body
 	font-family: 'Piazzolla', serif;
 	color: black;
 	position: relative;
-	top: 25%;
 	margin: 0px 50px 0px 0px;
 }
 .nav a{
@@ -92,14 +91,13 @@ body
 }
 .class_container_head_text{
 	display: flex;
-	align-content: center;
+	align-items: center;
 }
 
 .language_button{
 	font-size: 18px;
 	color: #fff;
 	position: relative;
-	top: 25%;
 	margin: 0px 50px 0px 0px;
 }
 
@@ -252,7 +250,7 @@ body
 }
 .clear_box{
 	border-top: 1px solid #ffffff;
-	margin: 10px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
 	border-bottom: 1px solid #ffffff;
 	background-color: #4a4a4a;
 }
